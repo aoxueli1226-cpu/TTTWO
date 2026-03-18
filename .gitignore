@@ -1,0 +1,22 @@
+# v0 runtime files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+
+# Common ignores
+node_modules/
+.next/
+out/
+.history/
+.vscode/
+.idea/
+.cursor/
+
+android/.gradle/
+android/app/build/
+android/build/
+android/capture/
+
+*.log
+.env*.local
+.DS_Store
