@@ -2,7 +2,8 @@
 
 ## 目标与范围
 - 目标：提供清晰的任务管理流程（创建、查看、编辑、专注、日历回顾），支持移动端固定布局与内滚动。
-- 平台：Web（Next.js/React）+ Android 容器（Capacitor）。
+- 平台：Web（Next.js/React）+ Android 容器（Capacitor）
+- 详细的优化目标和需求文档请查看：[优化目标文档](./Target.md)。
 
 ## 页面结构（4 个主页面）
 > 入口和底部导航由应用壳负责，页面内容由各 Screen 组件渲染。
@@ -164,7 +165,3 @@
 ## 运行与构建
 - 开发预览：npm run dev
 - 打开 Android Studio：npx cap open android
-
----
-
-如需补充“每个页面的详细交互流程图/状态图”，告诉我具体要多细，我再扩展。
